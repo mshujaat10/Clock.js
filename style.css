@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    font-family: 'Orbitron', sans-serif;
+}
+.analog{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    border-radius: 180px;
+    box-shadow: -4px 0px 9px #464646, 3px 3px 5px #161616;
+}
+#hr, #mn, #se{
+    position: absolute;
+    background-color: #b9b9b9;
+    transform-origin: bottom;
+    border-radius: 10px 10px 0px 0px;
+}
+#hr{
+    width: 2%;
+    height: 24%;
+    top: 26.6%;
+    left: 49%;
+}
+#mn{
+    width: 1.5%;
+    height: 30%;
+    top: 20.5%;
+    left: 49%;
+}
+#se{
+    background-color: rgb(69, 69, 255);
+    width: 1%;
+    height: 35%;
+    top: 15.5%;
+    left: 49.5%;
+}
+
+
+
+
+
+
+
+
+.digital{
+    margin: 20px auto;
+    width: 50vw;
+    text-align: center;
+}
+#content{
+    width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    position: relative;
+    display: flex;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: baseline;
+    margin: auto;
+    color: #fdfdfd;
+}
+.fonts{
+    box-sizing: border-box;
+    font-size: 2.8rem;
+    width: 50px;
+}
+.colon{
+    font-size: 2.8rem;
+}
+#session{
+    position: absolute;
+    top: 16px;
+    left: 107px;
+    font-size: 13px;
+}
+#seconds{
+    font-size: 20px;
+    width: 15px;
+    margin-left: 5px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#date, #month, #year{
+    font-size: 20px;
+    color: #bfbfbf;
+    margin: -2px 3px;
+}
+
